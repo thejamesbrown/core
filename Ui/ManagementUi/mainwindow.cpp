@@ -6,6 +6,11 @@ void newFunctionDoesNothing()
     return;
 }
 
+int someNewFunction()
+{
+    return 100;
+}
+
 void anotherNewFunction()
 {
     return;
