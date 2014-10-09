@@ -6,6 +6,11 @@ void newFunctionDoesNothing()
     return;
 }
 
+void anotherNewFunction()
+{
+    return;
+}
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
