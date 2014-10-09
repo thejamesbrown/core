@@ -16,6 +16,11 @@ void anotherNewFunction()
     return;
 }
 
+void testingMergeViaGitHubApp()
+{
+    return;
+}
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
