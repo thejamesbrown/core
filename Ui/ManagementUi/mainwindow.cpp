@@ -11,5 +11,6 @@ MainWindow::MainWindow(QWidget *parent) :
 MainWindow::~MainWindow()
 {
     // This comment is a test.
+    // This is another comment.
     delete ui;
 }
