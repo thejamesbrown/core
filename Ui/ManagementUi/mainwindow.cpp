@@ -21,6 +21,11 @@ void testingMergeViaGitHubApp()
     return;
 }
 
+int testingMergeViaGitHubAppWithAnInt()
+{
+    return 1000;
+}
+
 MainWindow::MainWindow(QWidget *parent) :
     QMainWindow(parent),
     ui(new Ui::MainWindow)
