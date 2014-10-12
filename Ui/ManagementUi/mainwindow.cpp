@@ -30,19 +30,22 @@ int testingMergeViaGitHubAppWithAnInt()
 // and the time complexity is linear.
 int functionThatDoesSomethingInteresting(int n)
 {
-    if(0 == n || 1 == n)
-        return 1;
+    int a = 1, b = 1;
 
-    int a = 2, b = 3;
+    if(0 == n)
+        return a;
 
-    for(int i = 2; i != n; ++i)
+    if(1 == n)
+        return b;
+
+    for(int i = 1; i != n; ++i)
     {
         int temp = a + b;
         a = b;
         b = temp;
     }
 
-    return a;
+    return b;
 }
 
 MainWindow::MainWindow(QWidget *parent) :
